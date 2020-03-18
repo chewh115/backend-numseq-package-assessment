@@ -25,7 +25,7 @@ def is_prime(m):
     if m > 1:
         for num in range(2, m):
             if m % num == 0:
-                print('{} is not a prime number. It is divisible by {}'.format(m, num))
+                print("{}'s not prime. it's divisible by {}".format(m, num))
                 return False
         print('{} is a prime number'.format(m))
         return True

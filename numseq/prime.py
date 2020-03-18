@@ -12,7 +12,7 @@ def primes(n):
             for j in range(2, i):
                 if i % j == 0:
                     prime = False
-                    print(f'{i} is not a prime')
+                    print('{} is not a prime'.format(i))
                     break
             if prime:
                 prime_list.append(i)
@@ -21,10 +21,11 @@ def primes(n):
 
 
 def is_prime(m):
+    """Returns a boolean indicating whether m is a prime number"""
     if m > 1:
         for num in range(2, m):
             if m % num == 0:
-                print(f'{m} is not a prime number. It is divisible by {num}')
+                print('{} is not a prime number. It is divisible by {}'.format(m, num))
                 return False
-        print(f'{m} is a prime number')
+        print('{} is a prime number'.format(m))
         return True

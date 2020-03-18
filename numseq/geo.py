@@ -1,13 +1,22 @@
 def sqaure(n):
-    """Returns nth term of numbers that can be arranged in geo squares"""
-    return n**2
+    """
+    Returns the nth term of the numbers that can be arranged into square
+    geometric shapes [1, 4, 9, 16, 25 ... ]
+    """
+    return n*n
 
 
 def triangle(n):
-    """Returns nth term of numbers that can be arranged in geo triangle"""
+    """
+    Returns the nth term of the numbers that can be arranged in triangular
+    geometric shapes [1, 3, 6, 10, 15, 21, 28, 36, 45, 55 ... ]
+    """
     return sum(range(1, n+1))
 
 
 def cube(n):
-    """Returns nth term of numbers that can be arranged in geo cube"""
+    """
+    Returns the nth term of the numbers that can be arranged as
+    symmetric cube shapes [1, 8, 27, 64 ...]
+    """
     return n**3

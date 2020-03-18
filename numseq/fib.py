@@ -1,8 +1,10 @@
 def fib(n):
     """Returns nth Fibonacci number"""
-    a, b = 0, 1
-    for _ in range(1, n):
-        total = a + b
-        a, b = b, total
-    print(total)
-    return total
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)

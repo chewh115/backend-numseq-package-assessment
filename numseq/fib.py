@@ -1,3 +1,8 @@
+"""
+Module contains function to return the nth Fibonacci number.
+"""
+
+
 def fib(n):
     """
     returns the nth Fibonacci number. The first 10 terms of the Fibonacci

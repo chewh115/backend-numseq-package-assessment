@@ -1,3 +1,9 @@
+"""
+Module contains functions to find nth number in geometric squared,
+geometric triangle and geometric cubed functions.
+"""
+
+
 def sqaure(n):
     """
     Returns the nth term of the numbers that can be arranged into square

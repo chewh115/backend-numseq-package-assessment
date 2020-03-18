@@ -1,6 +1,11 @@
-# I found this stack overflow to be VERY helpful
-# specifically to keep 9 from being a prime number:
-# https://stackoverflow.com/questions/11619942/print-series-of-prime-numbers-in-python
+"""
+This module contains functions to identify all prime numbers less than
+a given number, and to determine if a given number is a prime.
+
+I found this stack overflow to be VERY helpful
+specifically to keep 9 from being a prime number:
+https://stackoverflow.com/questions/11619942/print-series-of-prime-numbers-in-python
+"""
 
 
 def primes(n):

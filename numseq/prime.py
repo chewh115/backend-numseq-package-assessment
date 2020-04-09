@@ -21,7 +21,7 @@ def primes(n):
                     break
             if prime:
                 prime_list.append(i)
-    print(prime_list)
+    print(f'The primes up to {n} are {prime_list}')
     return prime_list
 
 
